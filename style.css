@@ -1411,7 +1411,7 @@ ul.tabs-nav .tab-nav.active {
 # Donation Form
 --------------------------------*/
 .donation-form-wrap {
-    padding: 96px 64px;
+    padding: 15px 64px;
     margin-bottom: 96px;
     background: #edf3f5;
 }
@@ -1513,6 +1513,7 @@ ul.tabs-nav .tab-nav.active {
 .billing-information input::placeholder {
     color: #929191;
 }
+
 
 @media screen and (max-width: 768px){
     .billing-information input {
