@@ -1,3 +1,4 @@
+<?php session_start() ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +8,9 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="icon" href="images/dove.png">
 
     <!-- Bootstrap CSS --><link rel="stylesheet" href="css/bootstrap.min.css">
 
@@ -34,16 +38,19 @@
                 <div class="row">
                     <div class="col-12 d-flex flex-wrap justify-content-between align-items-center">
                         <div class="site-branding d-flex align-items-center">
-                           <a class="d-block" href="index.html" rel="home"><img class="d-block" src="images/teamwork.png" style="width: 70%;"  alt="logo"></a>
+                           <a class="d-block" href="index.php" rel="home"><img class="d-block" src="images/teamwork.png" style="width: 70%;"  alt="logo"></a>
                            <span style="color: rgba(255,90,0,1)"> Մեկ Բռունցք </span>
                         </div><!-- .site-branding -->
 
                         <nav class="site-navigation d-flex justify-content-end align-items-center">
                             <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-content-center">
-                                <li class="current-menu-item"><a href="index.html">Գլխավոր</a></li>
-                                <li><a href="about.html">Մեր մասին</a></li>
-                                <li><a href="portfolio.html">Նկարներ</a></li>
-                                <li><a href="contact.html">Հետադարձ կապ</a></li>
+                                <li class="current-menu-item"><a href="index.php">Գլխավոր</a></li>
+                                <li><a href="about.php">Մեր մասին</a></li>
+                                <li><a href="portfolio.php">Նկարներ</a></li>
+                                <li><a href="contact.php">Հետադարձ կապ</a></li>
+                                <?php if(isset($_SESSION["name"])){ ?>
+                                     <li><a href="#"><?php echo $_SESSION["name"] ?></a></li>
+                                     <?php } ?>
                             </ul>
                         </nav><!-- .site-navigation -->
 
@@ -78,9 +85,10 @@
                                 </div><!-- .entry-content -->
 
                                 <footer class="entry-footer d-flex flex-wrap align-items-center mt-5">
-                                    <a href="#" class="btn gradient-bg mr-2">Մուտք</a>
-                                    <a href="single-causes.html" class="btn orange-border">Գրանցվել</a>
+                                    <a href="login.php" class="btn gradient-bg mr-2">Մուտք</a>
+                                    <a href="single-causes.php" class="btn orange-border">Գրանցվել</a>
                                 </footer><!-- .entry-footer -->
+                            
                             </div><!-- .col -->
                         </div><!-- .row -->
                     </div><!-- .container -->
@@ -105,7 +113,7 @@
 
                                 <footer class="entry-footer d-flex flex-wrap align-items-center mt-5">
                                     <a href="#" class="btn gradient-bg mr-2">Մուտք</a>
-                                    <a href="single-causes.html" class="btn orange-border">Գրանցվել</a>
+                                    <a href="single-causes.php" class="btn orange-border">Գրանցվել</a>
                                 </footer><!-- .entry-footer -->
                             </div><!-- .col -->
                         </div><!-- .row -->
@@ -131,7 +139,7 @@
 
                                 <footer class="entry-footer d-flex flex-wrap align-items-center mt-5">
                                     <a href="#" class="btn gradient-bg mr-2">Մուտք</a>
-                                    <a href="single-causes.html" class="btn orange-border">Գրանցվել</a>
+                                    <a href="single-causes.php" class="btn orange-border">Գրանցվել</a>
                                 </footer><!-- .entry-footer -->
                             </div><!-- .col -->
                         </div><!-- .row -->
@@ -485,7 +493,7 @@
                         <div class="foot-about">
                             <h2><a class="foot-logo" href="#"><img src="images/teamwork.png" alt=""></a></h2>
 
-                            <p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit. Mauris temp us vestib ulum mauris.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris.Lorem ipsum dolo.</p>
+                            <p>Կայքի նպատակն է հավաքագրել ողջ աշխարհի հայությանը մեկ հարթակում </p>
 
                        
                         </div><!-- .foot-about -->

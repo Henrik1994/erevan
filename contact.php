@@ -7,6 +7,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link rel="icon" href="images/dove.png">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
@@ -25,7 +27,7 @@
     <!-- Styles -->
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="single-page about-page">
+<body class="single-page contact-page">
 <header class="site-header">
 
 
@@ -34,16 +36,16 @@
             <div class="row">
                 <div class="col-12 d-flex flex-wrap justify-content-between align-items-center">
                         <div class="site-branding d-flex align-items-center">
-                                <a class="d-block" href="index.html" rel="home"><img class="d-block" src="images/teamwork.png" style="width: 70%;"  alt="logo"></a>
+                                <a class="d-block" href="index.php" rel="home"><img class="d-block" src="images/teamwork.png" style="width: 70%;"  alt="logo"></a>
                                 <span style="color: rgba(255,90,0,1)"> Մեկ Բռունցք </span>
                              </div><!-- .site-branding -->
 
                     <nav class="site-navigation d-flex justify-content-end align-items-center">
                         <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-content-center">
-                                <li class="current-menu-item"><a href="index.html">Գլխավոր</a></li>
-                                <li><a href="about.html">Մեր մասին</a></li>
-                                <li><a href="portfolio.html">Նկարներ</a></li>
-                                <li><a href="contact.html">Հետադարձ կապ</a></li>
+                                <li class="current-menu-item"><a href="index.php">Գլխավոր</a></li>
+                                <li><a href="about.php">Մեր մասին</a></li>
+                                <li><a href="portfolio.php">Նկարներ</a></li>
+                                <li><a href="contact.php">Հետադարձ կապ</a></li>
                         </ul>
                     </nav><!-- .site-navigation -->
 
@@ -63,37 +65,46 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h1>Մեր մասին</h1>
+                    <h1>Հետադարձ կապ</h1>
                 </div><!-- .col -->
             </div><!-- .row -->
         </div><!-- .container -->
     </div><!-- .page-header -->
 
-    <div class="welcome-wrap">
+    <div class="contact-page-wrap">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-6 order-2 order-lg-1">
-                    <div class="welcome-content">
-                        <header class="entry-header">
-                            <h2 class="entry-title">Բարի գալուստ Մեկ Բռունցք կայք</h2>
-                        </header><!-- .entry-header -->
+                <div class="col-12 col-lg-5">
+                    <div class="entry-content">
+                        <h2>Get In touch with us</h2>
 
-                        <div class="entry-content mt-5">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris quis aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestibulum mauris quis aliquam. Integer accumsan sodales odio, id tempus velit ullamcorper id. Quisque at erat eu libero consequat tempus. Quisque molestie convallis tempus. Ut semper purus metus, a euismod sapien sodales ac. Duis viverra eleifend fermentum.</p>
-                        </div><!-- .entry-content -->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris. Lorem ipsum dolor sit amet, conse ctetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris quis aliquam. Integer accu msan sodales odio, id tempus velit ullamc.</p>
 
-                        <div class="entry-footer mt-5">
-                            <a href="#" class="btn gradient-bg mr-2">Կարդալ ավելին</a>
-                        </div><!-- .entry-footer -->
-                    </div><!-- .welcome-content -->
+                    
+
+                        <ul class="contact-info p-0">
+                            <li><i class="fa fa-phone"></i><span>+(374)98-15-14-44</span></li>
+                            <li><i class="fa fa-envelope"></i><span>office@usaarmenia.com</span></li>
+                            <li><i class="fa fa-map-marker"></i><span>Պուշկինի 21</span></li>
+                        </ul>
+                    </div>
                 </div><!-- .col -->
 
-                <div class="col-12 col-lg-6 order-1 order-lg-2">
-                    <img src="images/jpit.jpg" alt="welcome">
+                <div class="col-12 col-lg-7">
+                    <form class="contact-form" action="auth.php" method="post">
+                        <input type="text" name="name" placeholder="Անուն">
+                        <input type="email" name="email" placeholder="էլ Փոստ">
+                        <textarea rows="15" cols="6" name="text" placeholder="Նամակ"></textarea>
+
+                        <span>
+                            <input class="btn gradient-bg" type="submit" name="contact" value="Ուղղարկել">
+                        </span>
+                    </form><!-- .contact-form -->
                 </div><!-- .col -->
             </div><!-- .row -->
         </div><!-- .container -->
-    </div><!-- .home-page-icon-boxes -->
+    </div>
+
     <footer class="site-footer">
             <div class="footer-widgets">
                 <div class="container">
@@ -102,9 +113,7 @@
                             <div class="foot-about">
                                 <h2><a class="foot-logo" href="#"><img src="images/teamwork.png" alt=""></a></h2>
     
-                                <p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit. Mauris temp us vestib ulum mauris.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris.Lorem ipsum dolo.</p>
-    
-                           
+                                <p>Կայքի նպատակն է հավաքագրել ողջ աշխարհի հայությանը մեկ հարթակում </p>
                             </div><!-- .foot-about -->
                         </div><!-- .col -->
     
@@ -113,7 +122,7 @@
                                 <h2>Կոնտակտ</h2>
     
                                 <ul>
-                                    <li><i class="fa fa-phone"></i><span>+(374)98-15-14-44)</span></li>
+                                    <li><i class="fa fa-phone"></i><span>+(374)98-15-14-44</span></li>
                                     <li><i class="fa fa-envelope"></i><span>office@usaarmenia.com</span></li>
                                     <li><i class="fa fa-map-marker"></i><span>Պուշկինի 21</span></li>
                                 </ul>

@@ -104,6 +104,7 @@ a:hover, a:active {
 @media screen and (min-width: 992px){
     .site-branding {
         width: auto;
+       
     }
 }
 
@@ -212,6 +213,7 @@ a:hover, a:active {
         padding: 0;
         overflow: auto;
         background: transparent;
+       
     }
 
     .site-navigation ul li a {
@@ -376,6 +378,7 @@ a:hover, a:active {
 @media screen and (max-width: 992px){
     .hero-content-overlay h1 {
         font-size: 25px;
+        
     }
 
     .hero-content-overlay h4 {
@@ -804,6 +807,7 @@ ul.tabs-nav .tab-nav.active {
 @media screen and (max-width: 992px){
     .home-page-welcome img {
         margin-bottom: 60px;
+        
     }
 }
 
@@ -835,6 +839,7 @@ ul.tabs-nav .tab-nav.active {
 @media screen and (max-width: 992px) {
     .home-page-events .featured-cause .section-heading {
         margin-top: 80px;
+        
     }
 }
 
@@ -1093,9 +1098,20 @@ ul.tabs-nav .tab-nav.active {
 }
 
 @media screen and (max-width: 576px){
+    
     .our-causes .swiper-button-next,
     .our-causes .swiper-button-prev {
         display: none;
+        
+        
+    }
+}
+
+
+
+@media screen and (max-width: 414px){
+    .fb_mini {
+      
     }
 }
 
@@ -1158,7 +1174,7 @@ ul.tabs-nav .tab-nav.active {
 }
 
 .about-page .page-header {
-    background: url(images/about-bg.jpg) no-repeat center;
+    background: url(images/dia.jpg) no-repeat center;
 }
 
 .about-page .welcome-wrap {
@@ -1172,6 +1188,7 @@ ul.tabs-nav .tab-nav.active {
 @media screen and (max-width: 992px){
     .about-page .welcome-content .entry-title {
         margin-top: 60px;
+        
     }
 }
 
@@ -1344,6 +1361,7 @@ ul.tabs-nav .tab-nav.active {
 @media screen and (max-width: 1200px) and (min-width: 992px) {
     .cause-wrap figure {
         width: 100%;
+      
     }
 
     .featured-cause .cause-content-wrap {
@@ -1355,6 +1373,7 @@ ul.tabs-nav .tab-nav.active {
 @media screen and (max-width: 576px) {
     .cause-wrap figure {
         width: 100%;
+      
     }
 
     .featured-cause .cause-content-wrap {
@@ -1415,6 +1434,14 @@ ul.tabs-nav .tab-nav.active {
     margin-bottom: 96px;
     background: #edf3f5;
 }
+.donation-form-wrap_fb {
+   
+    margin-bottom: 96px;
+    background: #edf3f5;
+  
+   
+}
+
 
 .donation-form-wrap h2 {
     font-size: 30px;
@@ -1518,14 +1545,24 @@ ul.tabs-nav .tab-nav.active {
 @media screen and (max-width: 768px){
     .billing-information input {
         width: 100%;
+        
     }
+}
+
+.my_input_fb {
+    width: calc(50% - 14px);
+    padding: 12px 30px;
+    margin-top: 28px;
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+    line-height: 1;
 }
 
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio .page-header {
-    background: url(images/portfolio-bg.jpg) no-repeat center;
+    background: url(images/ere.jpg) no-repeat center;
 }
 
 .portfolio-wrap {
@@ -1684,6 +1721,7 @@ ul.tabs-nav .tab-nav.active {
 @media screen and (max-width: 992px){
     .sidebar {
         margin-top: 96px;
+        
     }
 }
 
@@ -1879,7 +1917,7 @@ ul.tabs-nav .tab-nav.active {
 # Contact Page
 --------------------------------------------------------------*/
 .contact-page .page-header {
-    background: url(images/contact-bg.jpg) no-repeat center;
+    background: url(images/mami.jpg) no-repeat center;
 }
 
 .contact-page-wrap {
