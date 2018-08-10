@@ -81,7 +81,7 @@
                         </header><!-- .entry-header -->
 
                         <div class="entry-content mt-5">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris quis aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestibulum mauris quis aliquam. Integer accumsan sodales odio, id tempus velit ullamcorper id. Quisque at erat eu libero consequat tempus. Quisque molestie convallis tempus. Ut semper purus metus, a euismod sapien sodales ac. Duis viverra eleifend fermentum.</p>
+                            <p>Մեկ բռունցք համահայկական բարեգործական  կազմակերպությունը հիմնադրվել է 2011 թ֊ին, Ամերիկայի Միացյալ Նահանգներում բնակվող բարերար Ռոբեռտ Սահակյանի կողմից։<br>Կայքի հիմնական և կարևորագույն նպատակն է հավաքագրել ողջ աշխարի հայությանը մեկ հարթակում պարզելու համար աշխարի որ անկյունում որքան Հայ է բնակվում։<br>Շնորհակալություն</p>
                         </div><!-- .entry-content -->
 
                         <div class="entry-footer mt-5">

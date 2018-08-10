@@ -76,9 +76,9 @@
             <div class="row">
                 <div class="col-12 col-lg-5">
                     <div class="entry-content">
-                        <h2>Get In touch with us</h2>
+                        <h2>Գրել մեզ հաղորդագրություն էլ Փոստի միջոցով</h2>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris. Lorem ipsum dolor sit amet, conse ctetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris quis aliquam. Integer accu msan sodales odio, id tempus velit ullamc.</p>
+                        <p>Բողոքների և առաջարկությունների համար խնդրում ենք գրել հաղորդագրություն ,պարտադիր լրացման դաշտերն են Անունը, էլ Փոստը և Նամակ դաշտերը։ Մեր ադմինիստրատորը Ձեզ կպատասխանի 24 ժամվա ընթացքում <br> Շնորհակալություն  </p>
 
                     
 
@@ -92,9 +92,9 @@
 
                 <div class="col-12 col-lg-7">
                     <form class="contact-form" action="auth.php" method="post">
-                        <input type="text" name="name" placeholder="Անուն">
-                        <input type="email" name="email" placeholder="էլ Փոստ">
-                        <textarea rows="15" cols="6" name="text" placeholder="Նամակ"></textarea>
+                        <input type="text" name="name" placeholder="Անուն" required>
+                        <input type="email" name="email" placeholder="էլ Փոստ" required>
+                        <textarea rows="15" cols="6" name="text" placeholder="Նամակ" required></textarea>
 
                         <span>
                             <input class="btn gradient-bg" type="submit" name="contact" value="Ուղղարկել">
